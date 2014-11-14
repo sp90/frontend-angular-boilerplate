@@ -8,7 +8,23 @@ This basicly runs node.js server that return index.js on all url's.
 
 Then it uses Angular with ng-animate applied and the  "ui-router" and then i attached the full jquery(1.11.1) libary so it has IE8 support.
 
-Iv'd added a sublime-project file for those of you that use sublime - if you dont use it you can delete the file.
+It has browserify for js dependencies management & sourcemaps for scss development. It has dev & prod build setups.
+
+There is also a sublime-project file for those of you that use sublime - if you dont use it you can delete the file.
+
+### Getting started
+
+Start download the project as a zip or clone it and remove the .git folder
+
+`npm install`'s both bower components and node dependencies
+
+`grunt` just builds the project with development settings such as sourcemaps for sass and dont minify ether js or css.
+
+`grunt dev` does the grunt command first then it adds a concurrent build so file changes proc's a build on the type of files.
+
+`grunt build` does a minifyed version of css and javsacript for a production enviroment.
+
+`npm start` starts the node server on port 3000 or the pref enviroment port by this `process.env.PORT || 3000` port setup.
 
 ### Content list
 

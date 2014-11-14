@@ -6,6 +6,7 @@ var express = require('express'),
     morgan = require('morgan');
 
 var app = express();
+var port = process.env.PORT || 3000;
 
 app.use(morgan('dev'));
 app.use(express.static(path.join(__dirname, '/dist')));
@@ -19,6 +20,6 @@ app.all('*', function (req, res) {
    return res.sendFile(path.join(__dirname, '/dist/index.html'));
 });
 
-app.listen(3000);
+app.listen(port);
 
-console.log('listening on port 3000');
+console.log('listening on port: %d', port);

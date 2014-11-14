@@ -5,7 +5,7 @@ module.exports = {
     },
     sass: {
         files: 'src/**/*.{sass,scss}',
-        tasks: ['prod:scss'],
+        tasks: ['dev:scss'],
         options: {
           livereload: true
         }
