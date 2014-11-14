@@ -1,7 +1,7 @@
 {
-  "name": "golf",
+  "name": "project",
   "version": "0.0.1",
-  "description": "golf",
+  "description": "project",
   "main": "index.js",
   "scripts": {
     "preinstall": "bower install",
@@ -11,15 +11,11 @@
   "contributors": [
     "Simon Dragsbæk P. <dev@nomis.dk>"
   ],
-  "keywords": [
-    "golf",
-    "dubai"
-  ],
-  "private": true,
+  "private": false,
   "engines": {
     "node": ">= 0.10.x"
   },
-  "repository": "https://simio90@bitbucket.org/simio90/golf.git",
+  "repository": "https://github.com/sp90/frontend-angular-boilerplate",
   "browserify": {
     "transform": [
       "browserify-shim"
