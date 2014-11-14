@@ -6,7 +6,7 @@ module.exports = {
    dist: {
       options: {
          browserifyOptions: {
-            debug: true
+            debug: false
          },
       },
       files: {

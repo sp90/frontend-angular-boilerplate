@@ -3,11 +3,13 @@ var path = require('path');
 
 //External Dependencies
 var express = require('express'),
-    morgan = require('morgan');
+    morgan = require('morgan'),
+    compression = require('compression');
 
 var app = express();
 var port = process.env.PORT || 3000;
 
+app.use(compression());
 app.use(morgan('dev'));
 app.use(express.static(path.join(__dirname, '/dist')));
 

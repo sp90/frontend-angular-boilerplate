@@ -19,61 +19,61 @@ h1,h2,h3,h4,h5,h6,
 }
 
 h1,.h1 {
-   @include font($fs--h1, normal, $ff--base);
+   @include font($fs--h1, $lh--h1, normal, $ff--base);
    color: $normalColor;
    text-transform: uppercase;
    &.b {
-      @include font($fs--h1, bold, $ff--bold);
+      @include font($fs--h1, $lh--h1, bold, $ff--bold);
    }
    &.invert {
       color: $invertColor;
    }
 }
 h2,.h2 {
-   @include font($fs--h2, normal, $ff--base);
+   @include font($fs--h2, $lh--h2, normal, $ff--base);
    color: $normalColor;
    &.b {
-      @include font($fs--h2, bold, $ff--bold);
+      @include font($fs--h2, $lh--h2, bold, $ff--bold);
    }
    &.invert {
       color: $invertColor;
    }
 }
 h3,.h3 {
-   @include font($fs--h3, normal, $ff--base);
+   @include font($fs--h3, $lh--h3, normal, $ff--base);
    color: $normalColor;
    &.b {
-      @include font($fs--h3, bold, $ff--bold);
+      @include font($fs--h3, $lh--h3, bold, $ff--bold);
    }
    &.invert {
       color: $invertColor;
    }
 }
 h4,.h4 {
-   @include font($fs--h4, normal, $ff--base);
+   @include font($fs--h4, $lh--h4, normal, $ff--base);
    color: $normalColor;
    &.b {
-      @include font($fs--h4, bold, $ff--bold);
+      @include font($fs--h4, $lh--h4, bold, $ff--bold);
    }
    &.invert {
       color: $invertColor;
    }
 }
 h5,.h5 {
-   @include font($fs--h5, normal, $ff--base);
+   @include font($fs--h5, $lh--h5, normal, $ff--base);
    color: $normalColor;
    &.b {
-      @include font($fs--h5, bold, $ff--bold);
+      @include font($fs--h5, $lh--h5, bold, $ff--bold);
    }
    &.invert {
       color: $invertColor;
    }
 }
 h6,.h6 {
-   @include font($fs--h6, normal, $ff--base);
+   @include font($fs--h6, $lh--h6, normal, $ff--base);
    color: $normalColor;
    &.b {
-      @include font($fs--h6, bold, $ff--bold);
+      @include font($fs--h6, $lh--h6, bold, $ff--bold);
    }
    &.invert {
       color: $invertColor;
