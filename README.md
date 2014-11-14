@@ -2,6 +2,19 @@
 
 A boilerplate for angular applications - see the summary for basic description of content or the list for a detailed view. 
 
+#### Table of contents
+
+* Summary
+* Getting started
+* Extend Features
+	* Newstate
+	* Page Class
+	* Modular Sass
+* Content list
+	* Package scripts
+	* Dependencies & Versions
+	* Javascript libaries
+
 ### Summary
 
 This basicly runs node.js server that return index.js on all url's. 
@@ -26,6 +39,40 @@ Start download the project as a zip or clone it and remove the .git folder
 
 `npm start` starts the node server on port 3000 or the pref enviroment port by this `process.env.PORT || 3000` port setup.
 
+### Extended Features
+
+#### Newstate
+
+Angular states for the ui-router this is the way you add new pages iv'd build a function that adds a state, ctrl & template when you run it with the right names inside the files you only need to require it inside index.js.
+
+`node newstate.js STATENAME` This command adds a new state or a new template it generates a copy of the files in newstate folder with your STATENAME - remember to require it in the index.js.
+
+If your in doubt how these states work you can always go to src/index.js there is a the index page required.
+
+#### Page Class
+
+It has a class that is set on each state so you can set a rootclass on each different state for better css control over the content. 
+
+#### Modular Sass
+
+I use a sass structure that i made - from my knowlegde of using both <a href="http://patternlab.io/">atomic sass</a> by Brad Frost & <a href="https://github.com/csswizardry/inuit.css/">Inuit css</a> by Harry Roberts. 
+
+You find it <a href="https://github.com/sp90/modularSass">here</a> on github - with a description and list of the contents. 
+
+It basicly contains:
+
+* Bourbon
+* Animate.css (modified for sass support)
+* Inuit grid
+* New naming structure
+	 * Core
+	 * Modules
+	 * Pages
+	 * Settings
+	 * Vendor
+* A subset of breakpoint
+* <a href="https://github.com/sp90/modularSass">And more..</a>
+
 ### Content list
 
 Package scripts:
@@ -39,6 +86,7 @@ Dependencies & Versions:
 * bower: 1.3.10
 * browserify: 5.9.3
 * browserify-shim: 3.7.0
+* chalk: 0.5.1
 * concat-stream: 1.4.6
 * express: 4.9.1
 * grunt: 0.4.5
@@ -64,3 +112,14 @@ Javascript libaries:
 * angular-animate: ~1.3.2
 * jquery: ~1.11.1
 * ui-router: ~0.2.11
+
+
+
+<br />
+
+<i>Made by nomis</i>
+
+Github: <a href="https://github.com/sp90">sp90</a><br />
+Twitter: <a href="https://twitter.com/nomisweb">@nomisweb</a><br />
+Linkedin: <a href="dk.linkedin.com/pub/simon-petersen/71/b30/112/">Simon Dragsbæk Petersen</a><br />
+Blog: <a href="http://www.nomis.dk">nomis.dk</a>

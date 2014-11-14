@@ -5,7 +5,7 @@ module.exports = function($stateProvider) {
 	    templateUrl: '/js/templates/pages/stateName.html',
 	    controller: 'stateNameCtrl',
 	    data: {
-	      containerClass: 'landing-page'
+	      containerClass: 'page-type' /* Could be landing or frontpage */
 	    }
 	  });
 }
