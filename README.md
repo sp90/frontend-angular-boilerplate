@@ -8,6 +8,8 @@ This basicly runs node.js server that return index.js on all url's.
 
 Then it uses Angular with ng-animate applied and the  "ui-router" and then i attached the full jquery(1.11.1) libary so it has IE8 support.
 
+Iv'd added a sublime-project file for those of you that use sublime - if you dont use it you can delete the file.
+
 ### Content list
 
 Package scripts:
