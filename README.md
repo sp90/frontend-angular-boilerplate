@@ -4,16 +4,16 @@ A boilerplate for angular applications - see the summary for basic description o
 
 #### Table of contents
 
-* Summary
-* Getting started
-* Extend Features
-	* Newstate
-	* Page Class
-	* Modular Sass
-* Content list
-	* Package scripts
-	* Dependencies & Versions
-	* Javascript libaries
+* <a href="#summary">Summary</a>
+* <a href="#getting-started">Getting started</a>
+* <a href="#extended-features">Extended Features</a>
+	* <a href="#newstate">Newstate</a>
+	* <a href="#page-class">Page Class</a>
+	* <a href="#modular-sass">Modular Sass</a>
+* <a href="#content-list">Content list</a>
+	* <a href="#package-scripts">Package scripts</a>
+	* <a href="#dependencies-versions">Dependencies & Versions</a>
+	* <a href="#javascript-libaries">Javascript libaries</a>
 
 ### Summary
 
@@ -75,13 +75,13 @@ It basicly contains:
 
 ### Content list
 
-Package scripts:
+####Package scripts:
 
 * preinstall: bower install
 * postinstall: grunt build
 * start: node index.js
 
-Dependencies & Versions:
+####Dependencies & Versions:
 
 * bower: 1.3.10
 * browserify: 5.9.3
@@ -105,7 +105,7 @@ Dependencies & Versions:
 * streamifier: 0.1.0
 
 
-Javascript libaries:
+####Javascript libaries:
 
 * angular: ~1.3.2
 * angular-resource: ~1.3.2
