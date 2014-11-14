@@ -12,7 +12,7 @@ A boilerplate for angular applications - see the summary for basic description o
 	* <a href="#modular-sass">Modular Sass</a>
 * <a href="#content-list">Content list</a>
 	* <a href="#package-scripts">Package scripts</a>
-	* <a href="#dependencies-versions">Dependencies & Versions</a>
+	* <a href="#dependencies--versions">Dependencies & Versions</a>
 	* <a href="#javascript-libaries">Javascript libaries</a>
 
 ### Summary
