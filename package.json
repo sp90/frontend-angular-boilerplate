@@ -22,10 +22,10 @@
     ]
   },
   "browser": {
-    "jquery": "./bower_components/jquery/dist/jquery.js",
-    "angular": "./bower_components/angular/angular.js",
-    "angular-resource": "./bower_components/angular-resource/angular-resource.js",
-    "angular-ui-router": "./bower_components/ui-router/release/angular-ui-router.js",
+    "jquery": "./bower_components/jquery/dist/jquery.min.js",
+    "angular": "./bower_components/angular/angular.min.js",
+    "angular-resource": "./bower_components/angular-resource/angular-resource.min.js",
+    "angular-ui-router": "./bower_components/ui-router/release/angular-ui-router.min.js",
     "angular-animate": "./bower_components/angular-animate/angular-animate.min.js"
   },
   "browserify-shim": {

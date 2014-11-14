@@ -8,7 +8,10 @@ var $ = angular.element;
 var app = module.exports = angular.module('project', ['ui.router', 'ngResource', 'ngAnimate']);
 
 app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function($stateProvider, $urlRouterProvider, $locationProvider) {
-    $locationProvider.html5Mode(true);
+    $locationProvider.html5Mode({
+        enabled: true,
+        requireBase: false
+    });
     $locationProvider.hashPrefix('!');
     $urlRouterProvider.otherwise('/');
 

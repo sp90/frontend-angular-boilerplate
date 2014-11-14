@@ -10,7 +10,7 @@ module.exports = {
          },
       },
       files: {
-         'dist/js/index.js': ['src/js/**/*.js']
+         './dist/js/index.js': ['./src/js/**/*.js']
       }
    }
 };
