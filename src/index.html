@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="Conductor" ng-class="containerClass">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- IE8 new grid support -->
+    <!--[if lt IE 9]>
+      <script>
+        els = ['grid', 'item'];
+        for(i = 0; i < els.length; i++) {
+          document.createElement(els[i]);
+        }
+      </script>
+    <![endif]-->
+</head>
+<body>
+
+    <main ui-view ng-animate="'animate'">
+    </main>
+    <script src="/js/index.js"></script>
+</body>
+</html>
